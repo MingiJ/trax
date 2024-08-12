@@ -31,7 +31,7 @@ const theme = extendTheme({
 });
 const Trax = ({ Component, pageProps }) => {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <PlayerLayout>
         <Component {...pageProps} />
       </PlayerLayout>
